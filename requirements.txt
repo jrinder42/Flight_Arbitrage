@@ -1,0 +1,12 @@
+black
+coverage
+flake8
+mccabe
+mypy
+pylint
+requests
+tqdm
+bs4
+selenium
+types-requests
+types-selenium
