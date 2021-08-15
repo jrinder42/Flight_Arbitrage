@@ -1,8 +1,10 @@
 <h1 align="center">Flight Arbitrage</h1>
 
 <p align="center">
-    <img src="./assets/img/Flight_Arbitrage_Logo.svg" alt="Flight Arbitrage Logo" style="height: 250px; width:250px;"/>
+    <img src="./assets/img/Flight_Arbitrage_Logo.svg" alt="Flight Arbitrage Logo" style="height:100px; width:100px;"/>
 <p>
+
+## Flight Arbtrage
 
 This project adheres to [Semantic Versioning](https://semver.org/)
 
