@@ -9,10 +9,10 @@
 
 [pypi-image]: https://img.shields.io/pypi/v/podsearch
 [pypi-url]: https://pypi.org/project/podsearch/
-[build-image]: https://github.com/nalgeon/podsearch-py/actions/workflows/build.yml/badge.svg
-[build-url]: https://github.com/nalgeon/podsearch-py/actions/workflows/build.yml
-[coverage-image]: https://codecov.io/gh/nalgeon/podsearch-py/branch/main/graph/badge.svg
-[coverage-url]: https://codecov.io/gh/nalgeon/podsearch-py
+[build-image]: https://github.com/jrinder42/Flight_Arbitrage/actions/workflows/build.yml/badge.svg
+[build-url]: https://github.com/jrinder42/Flight_Arbitrage/actions/workflows/build.yml
+[coverage-image]: https://codecov.io/gh/jrinder42/Flight_Arbitrage/branch/main/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/jrinder42/Flight_Arbitrage
 [quality-image]: https://api.codeclimate.com/v1/badges/85937031d4258ed2909a/maintainability
 [quality-url]: https://codeclimate.com/github/jrinder42/Flight_Arbitrage
 
@@ -25,16 +25,19 @@ pip install flight_arbitrage
 
 ### Features
 
-- feature 1
+- Parse plane tickets for arbitrage opportunities
 
-- feature 2
-
-- feature 3
+- Scrape websites in a headless browser mode
 
 ### Examples
 ```python
-def hi():
-    print("hi")
+from flight_arbitrage.hidden_city import OneWay
+
+arbitrage = OneWay('JFK', 'SLC', '07/10/2021')
+a = arbitrage.find_arbitrage(headless=True)
+print(f'Is there an arbitrage opportunity: {len(a) > 0}')
+for d in a:
+    print(d)
 ```
 ### License
 Flight Arbitrage is MIT licensed, as found in the LICENSE file.
@@ -48,3 +51,5 @@ Flight Arbitrage is MIT licensed, as found in the LICENSE file.
     - Include automating doc updating
 
 - Use pre-commit
+
+- Test with multiple operating systems
