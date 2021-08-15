@@ -1,3 +1,12 @@
+name: build
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+    workflow_dispatch:
+
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -15,17 +24,14 @@ jobs:
             - name: Set up Python
               uses: actions/setup-python@v2
               with:
-                  python-version: "3.9"
+                  python-version: ${{ matrix.python-version }}
 
             - name: Install dependencies
               run: |
-                  python -m pip install --upgrade pip
-                  python -m pip install black coverage flake8 flit mccabe mypy pylint requests tqdm bs4 selenium types-request types-selenium tox tox-gh-actions
-
+                  make deps
             - name: Run tox
               run: |
-                  python -m tox
-
+                  make tox
             - name: Upload coverage to Codecov
               uses: codecov/codecov-action@v1
               if: contains(env.USING_COVERAGE, matrix.python-version)
