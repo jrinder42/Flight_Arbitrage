@@ -9,33 +9,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- requirements.txt
+- Documentation
 
-- setup.py
-
-- Dockerfile
-
-- Dynamic arg parser
-
-### Changed
-
-### Depreceated
-
-### Removed
-
-### Fixed
-
-### Security
-
-## 0.1.0 - 2020-11-24
+## 0.7.0 - 2021-08-15
 
 ### Added
 
 - The initial project release
 
-- License
+- Working Github Actions CI/CD files
 
-- Documentation
+### Removed
 
-- Changelog
+- Files that should have been excluded using .gitignore
+
+    - .idea folder
+    
+### Fixed
+
+- README for proper badges
+
+- Github Actions CI/CD workflow
+
+### Changed
+
+- Github Actions workflow os to include windows and osx on top of ubuntu
+
+## 0.8.0
+
+- Function documentation
+
+- Readthedocs integration
+
+## 0.9.0
+
+- pre-commit integration
+
+## 1.0.0
+
+- Stable release
 

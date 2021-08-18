@@ -15,8 +15,8 @@ lint:  ## Lint and static-check
 	python -m pylint flight_arbitrage test
 	python -m mypy flight_arbitrage test
 
-#publish:  ## Publish to PyPi
-#	python -m flit publish
+publish:  ## Publish to PyPi
+	python -m flit publish
 
 push:  ## Push code with tags
 	git push && git push --tags

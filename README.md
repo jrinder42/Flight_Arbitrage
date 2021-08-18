@@ -4,11 +4,14 @@
 [![Build Status][build-image]][build-url]
 [![Code Coverage][coverage-image]][coverage-url]
 [![Code Quality][quality-image]][quality-url]
+![Python Versions](assets/img/python_versions.svg)
+![Platform Badge](assets/img/platforms.svg)
+
 
 <!-- Badges -->
 
-[pypi-image]: https://img.shields.io/pypi/v/podsearch
-[pypi-url]: https://pypi.org/project/podsearch/
+[pypi-image]: assets/img/pypi.svg
+[pypi-url]: https://pypi.org/project/flight_arbitrage/
 [build-image]: https://github.com/jrinder42/Flight_Arbitrage/actions/workflows/build.yml/badge.svg
 [build-url]: https://github.com/jrinder42/Flight_Arbitrage/actions/workflows/build.yml
 [coverage-image]: https://codecov.io/gh/jrinder42/Flight_Arbitrage/branch/main/graph/badge.svg
@@ -52,4 +55,3 @@ Flight Arbitrage is MIT licensed, as found in the LICENSE file.
 
 - Use pre-commit
 
-- Test with multiple operating systems
