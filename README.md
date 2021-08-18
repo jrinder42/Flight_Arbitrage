@@ -2,6 +2,7 @@
 
 [![PyPI Version][pypi-image]][pypi-url]
 [![Build Status][build-image]][build-url]
+[![Documentation Status](https://readthedocs.org/projects/flight-arbitrage/badge/?version=latest)](https://flight-arbitrage.readthedocs.io/en/latest/?badge=latest)
 [![Code Coverage][coverage-image]][coverage-url]
 [![Code Quality][quality-image]][quality-url]
 ![Python Versions](assets/img/python_versions.svg)
