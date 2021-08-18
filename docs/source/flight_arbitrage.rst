@@ -1,11 +1,6 @@
 flight\_arbitrage package
 =========================
 
-.. automodule:: flight_arbitrage
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 Submodules
 ----------
 
@@ -14,3 +9,11 @@ Submodules
 
    flight_arbitrage.flight
    flight_arbitrage.hidden_city
+
+Module contents
+---------------
+
+.. automodule:: flight_arbitrage
+   :members:
+   :undoc-members:
+   :show-inheritance:
