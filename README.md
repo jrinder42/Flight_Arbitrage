@@ -58,3 +58,5 @@ Flight Arbitrage is MIT licensed, as found in the LICENSE file.
 
 - Fix code coverage upload to only ubuntu 3.9
 
+- Automate tag release process
+

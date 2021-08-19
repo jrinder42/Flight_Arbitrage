@@ -108,10 +108,10 @@ class OneWay(Flight):
         self, tries: int = 3
     ) -> Tuple[float, DefaultDict[str, set]]:
         """
+        Finds the cheapest flight that has an arbitrage
 
-
-        :param tries:
-        :return:
+        :param tries: number of retries to load the site
+        :return: the price (if a flight is found) and the flights
         """
         try_count = 0
         search = self.retrieve_elements_by_xpath(self.browser, self.offerings)
