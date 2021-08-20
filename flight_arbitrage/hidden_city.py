@@ -164,7 +164,7 @@ class OneWay(Flight):
         tries: int = 3,
     ) -> list:
         """
-
+        Iterates through all possible arbitrage opportunities
 
         :param override:
         :param override_filename:
