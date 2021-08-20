@@ -1,6 +1,7 @@
 ## Flight Arbtrage
 
 [![PyPI Version][pypi-image]][pypi-url]
+[![PyPI version](https://badge.fury.io/py/flight_arbitrage.svg)](https://badge.fury.io/py/flight_arbitrage)
 [![Build Status][build-image]][build-url]
 [![Documentation Status](https://readthedocs.org/projects/flight-arbitrage/badge/?version=latest)](https://flight-arbitrage.readthedocs.io/en/latest/?badge=latest)
 [![Code Coverage][coverage-image]][coverage-url]

@@ -9,7 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Documentation
+- readthedocs webhook
+
+- Fill in all remaining documentation
+
+- Fix code coverage upload to only ubuntu 3.9
 
 ## 0.7.0 - 2021-08-15
 
