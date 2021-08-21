@@ -61,3 +61,5 @@ Flight Arbitrage is MIT licensed, as found in the LICENSE file.
 
 - Automate tag release process
 
+- Fix image links for PyPi
+
