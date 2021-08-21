@@ -10,4 +10,3 @@ bs4
 selenium
 types-requests
 types-selenium
-pre-commit
