@@ -3,6 +3,11 @@ name: publish
 on:
     #release:
     #    types: [created]
+    workflow_run:
+      workflows: ["build"]
+      types:
+        - completed
+
     push:
       branches: [main]
       tags:

@@ -1,25 +1,26 @@
 ## Flight Arbtrage
 
 [![PyPI Version][pypi-image]][pypi-url]
-[![PyPI version](https://badge.fury.io/py/flight_arbitrage.svg)](https://badge.fury.io/py/flight_arbitrage)
 [![Build Status][build-image]][build-url]
-[![Documentation Status](https://readthedocs.org/projects/flight-arbitrage/badge/?version=latest)](https://flight-arbitrage.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status][doc-image]][doc-url]
 [![Code Coverage][coverage-image]][coverage-url]
 [![Code Quality][quality-image]][quality-url]
-![Python Versions](assets/img/python_versions.svg)
-![Platform Badge](assets/img/platforms.svg)
+[![PyPI - Python Version][version-image]][pypi-url]
 
 
 <!-- Badges -->
 
-[pypi-image]: assets/img/pypi.svg
+[pypi-image]: https://img.shields.io/pypi/v/flight_arbitrage
 [pypi-url]: https://pypi.org/project/flight_arbitrage/
 [build-image]: https://github.com/jrinder42/Flight_Arbitrage/actions/workflows/build.yml/badge.svg
 [build-url]: https://github.com/jrinder42/Flight_Arbitrage/actions/workflows/build.yml
+[doc-image]: https://readthedocs.org/projects/flight-arbitrage/badge/?version=latest
+[doc-url]: https://flight-arbitrage.readthedocs.io/en/latest/
 [coverage-image]: https://codecov.io/gh/jrinder42/Flight_Arbitrage/branch/main/graph/badge.svg
 [coverage-url]: https://codecov.io/gh/jrinder42/Flight_Arbitrage
 [quality-image]: https://api.codeclimate.com/v1/badges/85937031d4258ed2909a/maintainability
 [quality-url]: https://codeclimate.com/github/jrinder42/Flight_Arbitrage
+[version-image]: https://img.shields.io/pypi/pyversions/flight_arbitrage
 
 This project adheres to [Semantic Versioning](https://semver.org/)
 
