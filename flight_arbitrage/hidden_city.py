@@ -166,13 +166,13 @@ class OneWay(Flight):
         """
         Iterates through all possible arbitrage opportunities
 
-        :param override:
-        :param override_filename:
-        :param web_browser:
-        :param driver:
-        :param headless:
-        :param tries:
-        :return:
+        :param override: boolean as to whether a custom airport list is needed
+        :param override_filename: custom airport list text file
+        :param web_browser: web browser to use
+        :param driver: web browser selenium driver path
+        :param headless: boolean to decide to open a browser in headless mode
+        :param tries: number of tries to load the website content
+        :return: list of arbitrage opportunities and metadata about each
 
         >>> arbitrage = OneWay('JFK', 'SLC', '07/10/2021')
         >>> a = arbitrage.find_arbitrage(headless=True)

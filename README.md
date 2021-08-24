@@ -36,6 +36,9 @@ pip install flight_arbitrage
 - Scrape websites in a headless browser mode
 
 ### Examples
+
+Common 
+
 ```python
 from flight_arbitrage.hidden_city import OneWay
 
@@ -45,6 +48,21 @@ print(f'Is there an arbitrage opportunity: {len(a) > 0}')
 for d in a:
     print(d)
 ```
+
+Change airport list to search
+
+```python
+from flight_arbitrage.hidden_city import OneWay
+
+arbitrage = OneWay('JFK', 'SLC', '07/10/2021')
+a = arbitrage.find_arbitrage(headless=True, 
+                             override=True,
+                             override_filename='custom_list.txt')
+print(f'Is there an arbitrage opportunity: {len(a) > 0}')
+for d in a:
+    print(d)
+```
+
 ### License
 Flight Arbitrage is MIT licensed, as found in the LICENSE file.
 
@@ -64,3 +82,6 @@ Flight Arbitrage is MIT licensed, as found in the LICENSE file.
 
 - Fix image links for PyPi
 
+### Notes
+
+- You may have to play around with getting `selenium` to work
