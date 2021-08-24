@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-Nothing
+### Fixed
 
-## 0.8.0 - 2021-08-23
+- Typo in the `retrieve_elements_by_xpath` method docstring
+
+## v0.8.0 - 2021-08-23
 
 ### Added
 
@@ -23,7 +25,7 @@ Nothing
 
 - Github Actions release process
 
-## 0.7.0 - 2021-08-15
+## v0.7.0 - 2021-08-15
 
 ### Added
 

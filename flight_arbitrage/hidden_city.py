@@ -91,7 +91,7 @@ class OneWay(Flight):
 
         :param base_object: html parent tag object
         :param context: string to search
-        :return: list of xpath object from selenium
+        :return: list of xpath objects from selenium
         """
         # uses an extra function due to open mypy issue:
         #   https://github.com/python/mypy/issues/6463
