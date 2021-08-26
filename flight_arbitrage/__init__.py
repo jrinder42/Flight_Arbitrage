@@ -1,3 +1,3 @@
 """Finds arbitrage in plane ticket prices"""
 
-__version__ = "v0.9.0"
+__version__ = "1.0.0"

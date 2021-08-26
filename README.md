@@ -67,10 +67,6 @@ for d in a:
 
 Flight Arbitrage is MIT licensed, as found in the LICENSE file.
 
-### Todo
-
-- Use pre-commit
-
 ### Notes
 
 - You may have to play around with getting `selenium` to work
