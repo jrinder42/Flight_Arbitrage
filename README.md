@@ -64,23 +64,12 @@ for d in a:
 ```
 
 ### License
+
 Flight Arbitrage is MIT licensed, as found in the LICENSE file.
 
 ### Todo
 
-- Finish writing docs
-
-- Incorporate readthedocs
-
-    - Include automating doc updating
-
 - Use pre-commit
-
-- Fix code coverage upload to only ubuntu 3.9
-
-- Automate tag release process
-
-- Fix image links for PyPi
 
 ### Notes
 

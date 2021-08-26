@@ -1,12 +1,14 @@
 black
+bs4
 coverage
 flake8
+isort
 mccabe
 mypy
+pre-commit
 pylint
 requests
-tqdm
-bs4
 selenium
+tqdm
 types-requests
 types-selenium
